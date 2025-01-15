@@ -30,7 +30,7 @@ This Python script automates the process of downloading posts from a subreddit, 
 ## Setup
 
 Before running the script, you need to set up the following credential files.
-You can use `reddit_credentials-template.json` and `youtube_credentials-template.json` as templates, but don't forget to rename the files.
+You can use `reddit_credentials-template.py` and `youtube_credentials-template.json` as templates, but don't forget to rename the files.
 
 1. **YouTube API credentials**:
    - Create a file named `youtube_credentials.json`.
@@ -48,7 +48,7 @@ You can use `reddit_credentials-template.json` and `youtube_credentials-template
      ```
 
 2. **Reddit API credentials**:
-   - Create a file named `reddit_credentials.json`.
+   - Create a file named `reddit_credentials.py`.
    - Fill it with your Reddit API credentials. Example:
      ```python
      creds = {
