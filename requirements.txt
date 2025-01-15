@@ -1,0 +1,10 @@
+pandas
+numpy
+pillow
+pyttsx3
+pydub
+tkinter
+moviepy
+httplib2
+apiclient
+oauth2client
